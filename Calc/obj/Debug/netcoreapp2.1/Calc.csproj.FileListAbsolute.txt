@@ -1,0 +1,12 @@
+C:\Users\cptja\source\repos\CalcSingleton\Calc\bin\Debug\netcoreapp2.1\Calc.deps.json
+C:\Users\cptja\source\repos\CalcSingleton\Calc\bin\Debug\netcoreapp2.1\Calc.dll
+C:\Users\cptja\source\repos\CalcSingleton\Calc\bin\Debug\netcoreapp2.1\Calc.pdb
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.csproj.CoreCompileInputs.cache
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.AssemblyInfoInputs.cache
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.AssemblyInfo.cs
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.dll
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.pdb
+C:\Users\cptja\source\repos\CalcSingleton\Calc\bin\Debug\netcoreapp2.1\Logging.dll
+C:\Users\cptja\source\repos\CalcSingleton\Calc\bin\Debug\netcoreapp2.1\Logging.pdb
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.csprojAssemblyReference.cache
+C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\cptja\source\repos\CalcSingleton\Logging\bin\Release\netcoreapp2.1\Logging.deps.json
+C:\Users\cptja\source\repos\CalcSingleton\Logging\bin\Release\netcoreapp2.1\Logging.dll
+C:\Users\cptja\source\repos\CalcSingleton\Logging\bin\Release\netcoreapp2.1\Logging.pdb
+C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Release\netcoreapp2.1\Logging.csprojAssemblyReference.cache
+C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Release\netcoreapp2.1\Logging.csproj.CoreCompileInputs.cache
+C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Release\netcoreapp2.1\Logging.AssemblyInfoInputs.cache
+C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Release\netcoreapp2.1\Logging.AssemblyInfo.cs
+C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Release\netcoreapp2.1\Logging.dll
+C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Release\netcoreapp2.1\Logging.pdb

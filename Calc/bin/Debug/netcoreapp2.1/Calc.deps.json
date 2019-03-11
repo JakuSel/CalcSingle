@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Calc/1.0.0": {
+        "dependencies": {
+          "Logging": "1.0.0"
+        },
+        "runtime": {
+          "Calc.dll": {}
+        }
+      },
+      "Logging/1.0.0": {
+        "runtime": {
+          "Logging.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Calc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Logging/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

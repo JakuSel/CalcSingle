@@ -1,0 +1,16 @@
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\CalcSingleton.deps.json
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\CalcSingleton.runtimeconfig.json
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\CalcSingleton.runtimeconfig.dev.json
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\CalcSingleton.dll
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\CalcSingleton.pdb
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\Calc.dll
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\Calc.pdb
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.csprojAssemblyReference.cache
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.csproj.CoreCompileInputs.cache
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.AssemblyInfoInputs.cache
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.AssemblyInfo.cs
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.csproj.CopyComplete
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.dll
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\obj\Debug\netcoreapp2.1\CalcSingleton.pdb
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\Logging.dll
+C:\Users\cptja\source\repos\CalcSingleton\CalcSingleton\bin\Debug\netcoreapp2.1\Logging.pdb
