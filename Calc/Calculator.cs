@@ -1,41 +1,54 @@
 ﻿using Logging;
 using System;
+using System.Text.RegularExpressions;
 
 namespace Calc
 {
     public class Calculator
     {
+        private readonly ILogSingleton _log;
 
-        //private readonly ILogSingleton _log;
-        //public Calculator()
-        //{
-        //    _log = LogSingleton.GetLog();
-        //}
-        public double GetNumber()
+        public Calculator()
         {
-            Console.WriteLine("Zadaj číslo: ");
-            double number = Convert.ToDouble(Console.ReadLine());
-            //_log.Logging(number.ToString());
-            LogSingleton.GetLog(number.ToString());
-            return number;            
+            _log = LogSingleton.GetLog();
+        }
+        
+        public double GetNumber(string number)
+        {
+            while(true)
+            {
+                if (Regex.IsMatch(number.ToString(), @"^\d+$"))
+                {
+                    _log.Logging(number);
+                    //LogSingleton.GetLog(number);
+                    return Convert.ToDouble(number);
+                } else
+                {
+                    _log.ExceptionLog();
+                    throw new InvalidOperationException("Zlá operácia");
+
+                }
+
+            }
         }
 
-        public string GetOpperation()
+        public string GetOpperation(string opp)
         {
             while (true)
             {
-                Console.WriteLine("Operacia: ");
-                string opp = Console.ReadLine();
-                Console.Clear();
 
-                if((opp =="+") || (opp == "-") || (opp == "*") || (opp == "/"))
+                if ((opp == "+") || (opp == "-") || (opp == "*") || (opp == "/"))
                 {
-                    //_log.Logging(opp.ToString());
-                    LogSingleton.GetLog(opp.ToString());
-
+                    //LogSingleton.GetLog(opp.ToString());
+                    _log.Logging(opp);
                     return opp;
                 }
-                Console.WriteLine("Zlá operácia");
+                else
+                {
+                    _log.ExceptionLog();
+                    throw new InvalidOperationException("Zlá operácia");
+
+                }
             }
         }
 
@@ -45,31 +58,33 @@ namespace Calc
             {
                 case "+":                  
                     double resPlus = number1 + number2;
-                    //_log.Logging(resPlus.ToString());
-                    LogSingleton.GetLog(resPlus.ToString());
+
+                    _log.ResLog(resPlus);
 
                     return resPlus;           
                     
                 case "-":
                     double resMin = number1 - number2;
-                    //_log.Logging(resMin.ToString());
-                    LogSingleton.GetLog(resMin.ToString());
+
+                    _log.ResLog(resMin);
 
                     return resMin;
                 case "*":
                     double resKr = number1 * number2;
-                    //_log.Logging(resKr.ToString());
-                    LogSingleton.GetLog(resKr.ToString());
+
+                    _log.ResLog(resKr);
 
                     return resKr;
                 case "/":
                     double resDel = number1 / number2;
-                    //_log.Logging(resDel.ToString());
-                    LogSingleton.GetLog(resDel.ToString());
+
+                    _log.ResLog(resDel);
 
                     return resDel;
+
                 default: throw new InvalidOperationException("Zlá operácia");
             }
         }
+        
     }
 }

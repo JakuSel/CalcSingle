@@ -1,0 +1,17 @@
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.csprojAssemblyReference.cache
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.csproj.CoreCompileInputs.cache
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.AssemblyInfoInputs.cache
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.AssemblyInfo.cs
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\ConsoleCalc.deps.json
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\ConsoleCalc.runtimeconfig.json
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\ConsoleCalc.runtimeconfig.dev.json
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\ConsoleCalc.dll
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\ConsoleCalc.pdb
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\Calc.dll
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\Logging.dll
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\Calc.pdb
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\Logging.pdb
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.csproj.CopyComplete
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.dll
+D:\Projects\Project training\CalcSingle\CalcSingleton\obj\Debug\netcoreapp2.1\ConsoleCalc.pdb
+D:\Projects\Project training\CalcSingle\CalcSingleton\bin\Debug\netcoreapp2.1\appsettings.json
