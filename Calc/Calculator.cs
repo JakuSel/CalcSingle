@@ -4,32 +4,31 @@ using System.Text.RegularExpressions;
 
 namespace Calc
 {
-    public class Calculator
+    public class Calculator : ICalculator
     {
         private readonly ILogSingleton _log;
 
-        public Calculator()
+        public Calculator(ILogSingleton log)
         {
-            _log = LogSingleton.GetLog();
+            _log = log;
         }
         
-        public double GetNumber(string number)
+        public string GetNumber(string number)
         {
             while(true)
             {
                 if (Regex.IsMatch(number.ToString(), @"^\d+$"))
                 {
                     _log.Logging(number);
-                    //LogSingleton.GetLog(number);
-                    return Convert.ToDouble(number);
+                    return Convert.ToString(number);
                 } else
                 {
-                    _log.ExceptionLog();
+                _log.Logging(new InvalidOperationException("Znak nie je cislo").ToString() + Environment.NewLine);
                     throw new InvalidOperationException("Zlá operácia");
 
-                }
-
             }
+
+        }
         }
 
         public string GetOpperation(string opp)
@@ -39,48 +38,47 @@ namespace Calc
 
                 if ((opp == "+") || (opp == "-") || (opp == "*") || (opp == "/"))
                 {
-                    //LogSingleton.GetLog(opp.ToString());
                     _log.Logging(opp);
                     return opp;
                 }
                 else
                 {
-                    _log.ExceptionLog();
+                    _log.Logging(new InvalidOperationException("Znak nie je cislo").ToString() + Environment.NewLine);
                     throw new InvalidOperationException("Zlá operácia");
 
                 }
             }
         }
 
-        public double Calculation(double number1, double number2, string opp)
+
+        public string Calculation(double number1, double number2, string opp)
         {
             switch (opp)
             {
                 case "+":                  
                     double resPlus = number1 + number2;
 
-                    _log.ResLog(resPlus);
+                    _log.Logging("=" + resPlus.ToString() + Environment.NewLine);
 
-                    return resPlus;           
+                    return resPlus.ToString();           
                     
                 case "-":
                     double resMin = number1 - number2;
 
-                    _log.ResLog(resMin);
+                    _log.Logging("=" + resMin.ToString() + Environment.NewLine);
 
-                    return resMin;
+                    return resMin.ToString();
                 case "*":
                     double resKr = number1 * number2;
 
-                    _log.ResLog(resKr);
-
-                    return resKr;
+                    _log.Logging("=" + resKr.ToString() + Environment.NewLine);
+                    return resKr.ToString(); 
                 case "/":
                     double resDel = number1 / number2;
 
-                    _log.ResLog(resDel);
+                    _log.Logging("=" + resDel.ToString() + Environment.NewLine);
 
-                    return resDel;
+                    return resDel.ToString(); 
 
                 default: throw new InvalidOperationException("Zlá operácia");
             }

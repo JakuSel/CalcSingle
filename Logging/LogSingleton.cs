@@ -13,39 +13,27 @@ namespace Logging
         {            
         }
 
-        public static LogSingleton GetLog(/*string message*/)
+        public static LogSingleton GetLog(string path)
         {
             if(singleton == null)
             {
                 singleton = new LogSingleton();
                 
             }
-            //singleton.Logging(message);
+
             return singleton;
         }
 
         public void Logging(string message)
         {
-            //Console.WriteLine(path);
             using (StreamWriter writer = new StreamWriter(FilePath(), true))
             {
+
                 writer.Write(message);
             }
         }
-        public void ResLog(double resOpp)
-        {
-            singleton.Logging("=" + resOpp.ToString() + Environment.NewLine);
-            singleton.Logging(DateTime.Now.ToUniversalTime().ToString() + Environment.NewLine);
-        }
-
-        public void ExceptionLog()
-        {
-            singleton.Logging(new InvalidOperationException("Znak nie je cislo").ToString() + Environment.NewLine);
-            singleton.Logging(DateTime.Now.ToLocalTime().ToString() + Environment.NewLine);
-
-        }
-
-        private string FilePath()
+       
+        private static string FilePath()
         {
             var builder = new ConfigurationBuilder()
                //.SetBasePath(Directory.GetCurrentDirectory())

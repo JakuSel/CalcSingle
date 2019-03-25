@@ -22,3 +22,5 @@ D:\Projects\Project training\CalcSingle\Calc\obj\Debug\netcoreapp2.1\Calc.Assemb
 D:\Projects\Project training\CalcSingle\Calc\obj\Debug\netcoreapp2.1\Calc.csproj.CopyComplete
 D:\Projects\Project training\CalcSingle\Calc\obj\Debug\netcoreapp2.1\Calc.dll
 D:\Projects\Project training\CalcSingle\Calc\obj\Debug\netcoreapp2.1\Calc.pdb
+D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\ProjectInterfaces.dll
+D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\ProjectInterfaces.pdb

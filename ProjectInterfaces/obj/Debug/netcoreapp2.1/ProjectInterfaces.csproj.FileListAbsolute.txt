@@ -1,0 +1,9 @@
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\bin\Debug\netcoreapp2.1\ProjectInterfaces.deps.json
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\bin\Debug\netcoreapp2.1\ProjectInterfaces.dll
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\bin\Debug\netcoreapp2.1\ProjectInterfaces.pdb
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\obj\Debug\netcoreapp2.1\ProjectInterfaces.csprojAssemblyReference.cache
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\obj\Debug\netcoreapp2.1\ProjectInterfaces.csproj.CoreCompileInputs.cache
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\obj\Debug\netcoreapp2.1\ProjectInterfaces.AssemblyInfoInputs.cache
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\obj\Debug\netcoreapp2.1\ProjectInterfaces.AssemblyInfo.cs
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\obj\Debug\netcoreapp2.1\ProjectInterfaces.dll
+D:\Projects\Project training\CalcSingle\ProjectInterfaces\obj\Debug\netcoreapp2.1\ProjectInterfaces.pdb

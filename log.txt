@@ -8,3 +8,21 @@ System.InvalidOperationException: Znak nie je cislo3/12/2019 2:42:34 PM
 3/14/2019 12:23:12 PM
 6+22=28
 3/15/2019 8:48:16 AM
+45*949=42705
+3/18/2019 9:39:01 AM
+87496/156=560.871794871795
+131973755943535337
+554+145=699
+3/18/2019 9:41:10 AM
+System.InvalidOperationException: Znak nie je cislo
+3/18/2019 1:04:05 PM
+System.InvalidOperationException: Znak nie je cislo
+3/18/2019 1:08:34 PM
+ds+d+cSystem.InvalidOperationException: Znak nie je cislo
+3/18/2019 1:12:23 PM
+vxdcc33/15+145+15+5+3+158+45=203
+3/18/2019 1:27:28 PM
+55-52=3
+3/18/2019 1:30:54 PM
+15+44=59
+3/18/2019 1:31:04 PM
