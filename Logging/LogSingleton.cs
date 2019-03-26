@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
+﻿using System;
 using System.IO;
 
 namespace Logging
@@ -7,7 +6,7 @@ namespace Logging
     public class LogSingleton : ILogSingleton
     {
         private static LogSingleton singleton;
-        
+        private static string filePath;
 
         private LogSingleton()
         {            
@@ -20,31 +19,19 @@ namespace Logging
                 singleton = new LogSingleton();
                 
             }
-
+            filePath = path;
             return singleton;
         }
 
         public void Logging(string message)
         {
-            using (StreamWriter writer = new StreamWriter(FilePath(), true))
+            using (StreamWriter writer = new StreamWriter(filePath, true))
             {
 
                 writer.Write(message);
             }
         }
        
-        private static string FilePath()
-        {
-            var builder = new ConfigurationBuilder()
-               //.SetBasePath(Directory.GetCurrentDirectory())
-               .AddJsonFile("appsettings.json", true, true);
-
-            var config = builder.Build();
-
-            string path = config["filePath"];
-
-            return path;
-
-        }
+        
     }
 }

@@ -10,12 +10,12 @@ C:\Users\cptja\source\repos\CalcSingleton\Logging\obj\Debug\netcoreapp2.1\Loggin
 D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\Logging.deps.json
 D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\Logging.dll
 D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\Logging.pdb
+D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\ProjectInterfaces.dll
+D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\ProjectInterfaces.pdb
 D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.csprojAssemblyReference.cache
 D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.csproj.CoreCompileInputs.cache
 D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.AssemblyInfoInputs.cache
 D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.AssemblyInfo.cs
+D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.csproj.CopyComplete
 D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.dll
 D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.pdb
-D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\ProjectInterfaces.dll
-D:\Projects\Project training\CalcSingle\Logging\bin\Debug\netcoreapp2.1\ProjectInterfaces.pdb
-D:\Projects\Project training\CalcSingle\Logging\obj\Debug\netcoreapp2.1\Logging.csproj.CopyComplete

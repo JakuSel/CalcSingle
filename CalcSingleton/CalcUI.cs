@@ -9,16 +9,28 @@ namespace ConsoleCalc
 {
     public class CalcUI
     {
-        private readonly ILogSingleton logger; 
+        private ILogSingleton logger;
 
+        //private static string FilePath()
+        //{
+        //    var builder = new ConfigurationBuilder()
+        //       //.SetBasePath(Directory.GetCurrentDirectory())
+        //       .AddJsonFile("appsettings.json", true, true);
+
+        //    var config = builder.Build();
+
+        //    string path = config["filePath"];
+
+        //    return path;
+
+        //}
         
-        Calculator calc = new Calculator(logger);
-        
-
-
-
         public void Start()
         {
+            //logger = LogSingleton.GetLog(FilePath());
+            Calculator calc = new Calculator(logger);
+
+
             bool exit = false;
             while (!exit)
             {

@@ -58,25 +58,25 @@ namespace Calc
                 case "+":                  
                     double resPlus = number1 + number2;
 
-                    _log.Logging("=" + resPlus.ToString() + Environment.NewLine);
+                    _log.Logging(number1.ToString()+ "+" + number2.ToString() + "=" + resPlus.ToString() + Environment.NewLine);
 
                     return resPlus.ToString();           
                     
                 case "-":
                     double resMin = number1 - number2;
 
-                    _log.Logging("=" + resMin.ToString() + Environment.NewLine);
+                    _log.Logging(number1.ToString() + "-" + number2.ToString() + "=" + resMin.ToString() + Environment.NewLine);
 
                     return resMin.ToString();
                 case "*":
                     double resKr = number1 * number2;
 
-                    _log.Logging("=" + resKr.ToString() + Environment.NewLine);
+                    _log.Logging(number1.ToString() + "*" + number2.ToString() + "=" + resKr.ToString() + Environment.NewLine);
                     return resKr.ToString(); 
                 case "/":
                     double resDel = number1 / number2;
 
-                    _log.Logging("=" + resDel.ToString() + Environment.NewLine);
+                    _log.Logging(number1.ToString() + "/" + number2.ToString() + "=" + resDel.ToString() + Environment.NewLine);
 
                     return resDel.ToString(); 
 

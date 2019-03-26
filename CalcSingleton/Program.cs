@@ -2,8 +2,7 @@
 using System.IO;
 using System.Configuration;
 using Calc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.Json;
+
 using Logging;
 
 namespace ConsoleCalc
