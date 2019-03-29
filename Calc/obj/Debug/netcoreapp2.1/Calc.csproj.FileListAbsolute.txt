@@ -13,9 +13,7 @@ C:\Users\cptja\source\repos\CalcSingleton\Calc\obj\Debug\netcoreapp2.1\Calc.cspr
 D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\Calc.deps.json
 D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\Calc.dll
 D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\Calc.pdb
-D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\Logging.dll
 D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\ProjectInterfaces.dll
-D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\Logging.pdb
 D:\Projects\Project training\CalcSingle\Calc\bin\Debug\netcoreapp2.1\ProjectInterfaces.pdb
 D:\Projects\Project training\CalcSingle\Calc\obj\Debug\netcoreapp2.1\Calc.csprojAssemblyReference.cache
 D:\Projects\Project training\CalcSingle\Calc\obj\Debug\netcoreapp2.1\Calc.csproj.CoreCompileInputs.cache

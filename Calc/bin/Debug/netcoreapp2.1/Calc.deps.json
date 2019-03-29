@@ -8,19 +8,10 @@
     ".NETCoreApp,Version=v2.1": {
       "Calc/1.0.0": {
         "dependencies": {
-          "Logging": "1.0.0",
           "ProjectInterfaces": "1.0.0"
         },
         "runtime": {
           "Calc.dll": {}
-        }
-      },
-      "Logging/1.0.0": {
-        "dependencies": {
-          "ProjectInterfaces": "1.0.0"
-        },
-        "runtime": {
-          "Logging.dll": {}
         }
       },
       "ProjectInterfaces/1.0.0": {
@@ -32,11 +23,6 @@
   },
   "libraries": {
     "Calc/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Logging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

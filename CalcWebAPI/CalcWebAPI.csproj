@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Calc\Calc.csproj" />
+    <ProjectReference Include="..\Logging\Logging.csproj" />
     <ProjectReference Include="..\ProjectInterfaces\ProjectInterfaces.csproj" />
   </ItemGroup>
 

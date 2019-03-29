@@ -4338,7 +4338,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Logging": "1.0.0",
           "ProjectInterfaces": "1.0.0"
         },
         "compile": {
@@ -11843,6 +11842,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Calc >= 1.0.0",
+      "Logging >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.Extensions.Configuration >= 2.1.1",
       "Microsoft.Extensions.Configuration.FileExtensions >= 2.1.1",
@@ -11883,6 +11883,9 @@
           "projectReferences": {
             "D:\\Projects\\Project training\\CalcSingle\\Calc\\Calc.csproj": {
               "projectPath": "D:\\Projects\\Project training\\CalcSingle\\Calc\\Calc.csproj"
+            },
+            "D:\\Projects\\Project training\\CalcSingle\\Logging\\Logging.csproj": {
+              "projectPath": "D:\\Projects\\Project training\\CalcSingle\\Logging\\Logging.csproj"
             },
             "D:\\Projects\\Project training\\CalcSingle\\ProjectInterfaces\\ProjectInterfaces.csproj": {
               "projectPath": "D:\\Projects\\Project training\\CalcSingle\\ProjectInterfaces\\ProjectInterfaces.csproj"

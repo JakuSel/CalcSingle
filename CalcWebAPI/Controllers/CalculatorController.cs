@@ -4,8 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using CalcWebAPI.Business;
 using CalcWebAPI.Model;
+using Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace CalcWebAPI.Controllers
 {
@@ -14,10 +18,13 @@ namespace CalcWebAPI.Controllers
     public class CalculatorController : ControllerBase
     {
         [HttpPost]
-        public IActionResult Post([FromBody] CalcModel calcModel)
+        public IActionResult Post([FromServices]IServiceProvider provider, 
+            [FromBody] CalcModel calcModel)
         {
+            ILogSingleton log = provider.GetService<ILogSingleton>();
+                
             CalcBus calc = new CalcBus();
-            return Ok(calc.Calculation(calcModel));
+            return Ok(calc.Calculation(calcModel, log));
         }
     }
 }

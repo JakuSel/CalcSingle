@@ -14,11 +14,25 @@ namespace CalcWebAPI
     {
         public static void Main(string[] args)
         {
+
             CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        //public static string GetFilePath()
+        //{
+        //    var builder = new ConfigurationBuilder()
+        //       .SetBasePath(Directory.GetCurrentDirectory())
+        //       .AddJsonFile("appsettings.json", true, true);
+
+        //    var config = builder.Build();
+
+        //    string path = config["filePath"];
+
+        //    return path;
+        //}
     }
 }

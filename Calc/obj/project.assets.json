@@ -208,19 +208,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Logging/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "ProjectInterfaces": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Logging.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Logging.dll": {}
-        }
-      },
       "ProjectInterfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -704,11 +691,6 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Logging/1.0.0": {
-      "type": "project",
-      "path": "../Logging/Logging.csproj",
-      "msbuildProject": "../Logging/Logging.csproj"
-    },
     "ProjectInterfaces/1.0.0": {
       "type": "project",
       "path": "../ProjectInterfaces/ProjectInterfaces.csproj",
@@ -717,7 +699,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Logging >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "ProjectInterfaces >= 1.0.0"
     ]
@@ -752,9 +733,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Projects\\Project training\\CalcSingle\\Logging\\Logging.csproj": {
-              "projectPath": "D:\\Projects\\Project training\\CalcSingle\\Logging\\Logging.csproj"
-            },
             "D:\\Projects\\Project training\\CalcSingle\\ProjectInterfaces\\ProjectInterfaces.csproj": {
               "projectPath": "D:\\Projects\\Project training\\CalcSingle\\ProjectInterfaces\\ProjectInterfaces.csproj"
             }
